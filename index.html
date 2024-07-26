@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            margin: 1em 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 1em;
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 2em;
+            margin: 2em 0;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            margin: 2em auto;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Personal Website</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact Me</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Naveena Avula, a masters student with a passion for software development. I have experience in data engineering and dev-ops and enjoy working on projects related to software developemt.</p>
+    </section>
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Below is a link to my resume where you can learn more about my professional experience and qualifications:</p>
+        <p><a href="File:///Users/naveenaa/Downloads/portfolioo/Naveena Avula Resume - 2024 .pdf" target="_blank">View My Resume</a></p>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, please reach out via email:</p>
+        <form action="mailto:naveenaavula2697@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Naveena Avula. All rights reserved.</p>
+    </footer>
+</body>
+</html>
